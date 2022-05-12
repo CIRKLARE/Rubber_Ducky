@@ -1,5 +1,5 @@
 # Use this command to start the server on port 80:
-# sudo python SimpleHTTPPutServer 80
+# sudo python HTTPServer.py 80
 # nc -lp 4444
 
 import SimpleHTTPServer
